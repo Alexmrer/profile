@@ -1,0 +1,152 @@
+body {
+  color: white;
+  background-color: #F1F6F9;
+  font-family: 'Roboto', sans-serif;
+  line-height: 50px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+p {
+  font-weight: lighter;
+  background-color: #FA1825;
+  color: white;
+  padding: 40px;
+  border-radius: 20px;
+  font-size: 18px ;
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+img {
+  width: 30%;
+  border-radius: 30px;
+  border: 4px solid white;
+}
+
+#lewagon {
+  width: 30%;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px #fcfcfc81;
+
+}
+
+.container {
+  background-color: #FA1825;
+  border-radius: 12px;
+  width: 50%;
+  margin: 16px auto;
+  text-align: center;
+  padding: 32px;
+}
+
+.card {
+  background-color: #fa1823ef;
+  border: 4px solid white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 20px #FA1825;
+  width: 50%;
+  margin: 16px auto;
+  text-align: center;
+  padding: 32px;
+}
+
+.button {
+  padding: 12px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  transition: .3s;
+}
+
+.button:hover {
+  background-color: #FA1825;
+  color: #F1F6F9;
+}
+
+li {
+  display: inline-block;
+}
+
+.redlw {
+  color: #FA1825;
+  background-color: white;
+  padding: 5px 5px;
+  border-radius: 9px;
+
+}
+
+.big_icon {
+  font-size: 3em;
+  color: #FA1825;
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 15px;
+  letter-spacing: 5px;
+  transition: .3s;
+  text-align: center;
+}
+
+.big_icon:hover {
+  background-color: #FA1825;
+  color: #F1F6F9;
+}
+.github {
+  text-align: center;
+  font-size: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+  .card {
+    width: 700px;
+  }
+  #lewagon {
+    width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card {
+    width: 500px;
+  }
+  #lewagon {
+    width: 150px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card {
+    width: 300px;
+  }
+  #lewagon {
+    width: 150px;
+  }
+}
